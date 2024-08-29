@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/output.css">
+  <link rel="stylesheet" href="../css/style.css">
+  <title>Frontend Mentor | Loopstudios landing page</title>
+</head>
+<body>
+  <main>
+    <section class="hero min-h-[650px] py-10 ">
+      <div class="container lg:w-[80%] w-[90%] relative">
+        <nav class="flex flex-row justify-between">
+          <div class="flex justify-between w-full p-0 m-0">
+            <img src="../images/logo.svg" alt="logo" class="max-w-36">
+            <button class="lg:hidden" onclick="openMenu(this)">
+              <img src="../images/icon-hamburger.svg" alt="icon-hamburger" id="btn-img">
+            </button>
+          </div>
+          <ul class="gap-8 text-white hidden lg:flex uppercase">
+            <li class="group">
+              <a href="#" class="">About</a>
+              <div class="bg-white h-[2px] group-hover:w-full w-0 transition-all duration-150 mx-auto"></div>
+            </li>
+            <li class="group">
+              <a href="#">Careers</a>
+              <div class="bg-white h-[2px] group-hover:w-full w-0 transition-all duration-150 mx-auto"></div>
+            </li>
+            <li class="group">
+              <a href="#">Events</a>
+              <div class="bg-white h-[2px] group-hover:w-full w-0 transition-all duration-150 mx-auto"></div>
+            </li>
+            <li class="group">
+              <a href="#">Products</a>
+              <div class="bg-white h-[2px] group-hover:w-full w-0 transition-all duration-150 mx-auto"></div>
+            </li>
+            <li class="group">
+              <a href="#">Support</a>
+              <div class="bg-white h-[2px] group-hover:w-full w-0 transition-all duration-150 mx-auto"></div>
+            </li>
+          </ul>
+        </nav>
+        <h1 class="p-4 px-8 border-white border lg:w-[55%] w-full absolute top-[50%] lg:top-[15%] lg:translate-y-[50%] translate-y-[45%] left-0 text-6xl text-white font-light uppercase">
+          Immersive <br class="lg:hidden"> experiences <br class="lg:hidden"> that <br class="lg:hidden"> deliver
+        </h1>
+      </div>
+    </section>
+    
+    <section class="container lg:w-[80%] w-[90%] my-24 relative">
+      <img src="../images/desktop/image-interactive.jpg" alt="">
+      <div class="bg-white flex flex-col gap-10 p-10 lg:absolute lg:-right-14 lg:-translate-y-full lg:w-[50%]">
+        <h2 class="text-5xl uppercase text-center">
+          The leader in interactive VR
+        </h2>
+        <p class="text-center">
+          Founded in 2011, Loopstudios has been producing world-class virtual reality projects for some of the best companies around the globe. Our award-winning creations have transformed businesses through digital experiences that bind to their brand.
+        </p>
+      </div>
+    </section>
+    
+    <section class="container lg:w-[80%] w-[90%] my-32">
+      <div class="flex justify-between my-8">
+        <h2 class="text-4xl text-center uppercase font-light">
+          Our creations
+        </h2>
+        <a href="#" class="hidden lg:block p-2 px-6 border-Very-Dark-Gray border uppercase hover:bg-black hover:text-white transition-all duration-150">
+          See all
+        </a>
+      </div>
+
+      <div class="flex flex-col gap-6 lg:hidden text-Dark-Gray">
+        <div class="relative card">
+          <img src="../images/mobile/image-deep-earth.jpg" alt="deep-earth">
+          <h3 class="absolute text-white top-[25%] left-4 text-3xl uppercase">
+            Deep <br/> earth
+          </h3>
+        </div>
+        <div class="relative card">
+          <img src="../images/mobile/image-night-arcade.jpg" alt="night-arcade">
+          <h3 class="absolute text-white top-[25%] left-4 text-3xl uppercase">
+            Night <br/> arcade
+          </h3>
+        </div>
+        <div class="relative card">
+          <img src="../images/mobile/image-soccer-team.jpg" alt="soccer-team">
+          <h3 class="absolute text-white top-[25%] left-4 text-3xl uppercase">
+            Soccer <br/>team VR
+          </h3>
+        </div>
+        <div class="relative card">
+          <img src="../images/mobile/image-grid.jpg" alt="grid">
+          <h3 class="absolute text-white top-[25%] left-4 text-3xl uppercase">
+            The <br/>grid
+          </h3>
+        </div>
+        <div class="relative card">
+          <img src="../images/mobile/image-from-above.jpg" alt="grid">
+          <h3 class="absolute text-white top-[25%] left-4 text-3xl uppercase">
+            From up <br/> above VR
+          </h3>
+        </div>
+        <div class="relative card">
+          <img src="../images/mobile/image-pocket-borealis.jpg" alt="pocket-borealis">
+          <h3 class="absolute text-white top-[25%] left-4 text-3xl uppercase">
+            Pocket <br/> borealis
+          </h3>
+        </div>
+        <div class="relative card">
+          <img src="../images/mobile/image-curiosity.jpg" alt="curiosity">
+          <h3 class="absolute text-white top-[25%] left-4 text-3xl uppercase">
+            The <br/> curiosity
+          </h3>
+        </div>
+        <div class="relative card">
+          <img src="../images/mobile/image-fisheye.jpg" alt="fisheye">
+          <h3 class="absolute text-white top-[25%] left-4 text-3xl uppercase">
+            Make it <br/> fisheye
+          </h3>
+        </div>
+      </div>
+
+      <div class="lg:grid grid-cols-4 gap-4 hidden text-Dark-Gray">
+        <div class="relative card">
+          <img src="../images/desktop/image-deep-earth.jpg" alt="deep-earth">
+          <h3 class="absolute text-white top-[80%] left-4 text-opacity-80 text-3xl uppercase">
+            Deep <br/> earth
+          </h3>
+        </div>
+        <div class="relative card">
+          <img src="../images/desktop/image-night-arcade.jpg" alt="night-arcade">
+          <h3 class="absolute text-white top-[80%] left-4 text-3xl uppercase">
+            Night <br/> arcade
+          </h3>
+        </div> 
+        <div class="relative card">
+          <img src="../images/desktop/image-soccer-team.jpg" alt="soccer-team">
+          <h3 class="absolute text-white top-[80%] left-4 text-3xl uppercase">
+            Soccer <br/>team VR
+          </h3>
+        </div>
+        <div class="relative card">
+          <img src="../images/desktop/image-grid.jpg" alt="grid">
+          <h3 class="absolute text-white top-[80%] left-4 text-3xl uppercase">
+            The <br/>grid
+          </h3>
+        </div>
+        <div class="relative card">
+          <img src="../images/desktop/image-from-above.jpg" alt="grid">
+          <h3 class="absolute text-white top-[80%] left-4 text-3xl uppercase">
+            From up <br/> above VR
+          </h3>
+        </div>
+        <div class="relative card">
+          <img src="../images/desktop/image-pocket-borealis.jpg" alt="pocket-borealis">
+          <h3 class="absolute text-white top-[80%] left-4 text-3xl uppercase">
+            Pocket <br/> borealis
+          </h3>
+        </div>
+        <div class="relative card">
+          <img src="../images/desktop/image-curiosity.jpg" alt="curiosity">
+          <h3 class="absolute text-white top-[80%] left-4 text-3xl uppercase">
+            The <br/> curiosity
+          </h3>
+        </div>
+        <div class="relative card">
+          <img src="../images/desktop/image-fisheye.jpg" alt="fisheye">
+          <h3 class="absolute text-white top-[80%] left-4 text-3xl uppercase">
+            Make it <br/> fisheye
+          </h3>
+        </div>
+      </div>
+    </section>
+</main>
+
+
+<footer class="bg-black text-white p-4 py-8">
+  <div class="container w-[80%] flex lg:flex-row flex-col gap-14 *:items-center justify-between">
+
+    <div class="flex lg:flex-col flex-col  gap-y-4">
+      <img src="../images/logo.svg" alt="logo" class="max-w-36">
+      <ul class="flex gap-3 lg:flex-row flex-col ">
+        <li>
+          <a href="#">About</a>
+        </li>
+        <li>
+          <a href="#">Careers</a>
+        </li>
+        <li>
+          <a href="#">Events</a>
+        </li>
+        <li>
+          <a href="#">Products</a>
+        </li>
+        <li>
+          <a href="#">Support</a>
+        </li>  
+      </ul>
+    </div>
+
+    <div class="flex flex-col  gap-y-4"> 
+      <ul class="flex gap-3 lg:justify-end">
+        <li>
+          <a href="#">
+            <img src="../images/icon-facebook.svg" alt="icon-facebook">
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="../images/icon-twitter.svg" alt="icon-twitter">
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="../images/icon-pinterest.svg" alt="icon-pinterest">
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="../images/icon-instagram.svg" alt="icon-instagram">
+          </a>
+        </li>
+      </ul>
+      <p class="text-center">
+        © 2021 Loopstudios. All rights reserved.
+      </p>
+    </div>
+  </div>
+</footer>
+<script>
+  let nav = document.querySelector('nav')
+  let btnImg = document.querySelector('#btn-img')
+  var isMenuOpen = false
+  function openMenu(btn){
+    if(isMenuOpen){
+      nav.classList.remove('menu')
+      console.log(btnImg)
+      btnImg.src = '../images/icon-hamburger.svg'
+      isMenuOpen = false
+    }
+    else{
+      nav.classList.add('menu')
+      isMenuOpen = true
+      btnImg.src = '../images/icon-close.svg'
+    }
+  }
+</script>
+</body>
+</html>
